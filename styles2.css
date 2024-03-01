@@ -1,0 +1,80 @@
+.options1:hover{
+    /* opacity: 0.5; */
+    border: 1px solid white;
+    cursor: pointer;
+}
+.nim:hover{
+    border: 1px solid white;
+    cursor: pointer;
+}
+#img3:hover{
+    cursor: pointer;
+    opacity: 20;
+}
+.blocks img:hover{
+    cursor: pointer;
+}
+#haza1 img:hover{
+    cursor: pointer;
+}
+#haza2:hover{
+    cursor: pointer;
+}
+#blackbox{
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 350px;
+    height: 100%;
+    background-color: white;
+}
+
+#heading{
+    display: block;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    color: aliceblue;
+    background-color: #232f3e;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#content h3{
+    padding-left:25px;
+    font-size: 18px;
+    font-weight: 700;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-bottom: 5px;
+}
+.tren{
+    width: 100%;
+    padding-left:25px;
+    margin: 0px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    color: grey;
+    font-size: 15px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.tren:hover{
+    background-color: rgb(233, 229, 229);
+    cursor: pointer;
+}
+#cross{
+    position: absolute;
+    top: 1%;
+    left: 352px;
+    font-size: 25px;
+    font-weight: 700;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-left: 5px;
+}
+#cross:hover{
+    cursor: pointer;
+}
+.blb1{
+    display: none;
+}
+

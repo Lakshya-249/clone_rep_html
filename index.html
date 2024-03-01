@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+    <div id="obj">
+    <!-- #232f3e -->
+    <!-- #0F1111 -->
+    <div class="container" id="box1">
+        <img src="./icons/Sreenshot (63).jpg" alt="amazon" id="img1" class="nim">
+        <div id="input">
+            <input type="text" name="search" id="text1" placeholder="Search your item here">
+            <img src="./icons/Screenshot (65).jpg" alt="subm" id="img3">
+        </div>
+        <img src="./icons/Screenshot (64).jpg" alt="cart" id="img2" class="nim">
+    </div>
+    <div id="subsection">&nbsp;&nbsp;
+        <div class="options1" id="button">☰ All</div>
+        <div class="options1">Fresh</div>
+        <div class="options1">Amazon miniTV</div>
+        <div class="options1">Sell</div>
+        <div class="options1">Fashion</div>
+        <div class="options1">Gift Cards</div>
+        <div class="options1">Buy Again</div>
+        <div class="options1">Gift Ideas</div>
+        <div class="options1">Coupons</div>
+    </div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <div id="bcimg"></div>
+    <div id="cont2">
+        <div class="blocks">
+            <b class="clip">Keep looking for</b>
+            <img src="./icons/Screenshot (678).jpg" alt="image loading" class="nimg">
+        </div>
+        <div class="blocks">
+            <b class="clip">Pick up where you left off</b>
+            <img src="./icons/Screenshot (69).jpg" alt="" class="nimg">
+        </div>
+        <div class="blocks">
+            <b class="clip">Buy again</b>
+            <img src="./icons/Screenshot (677).png" alt="" class="nimg">
+        </div>
+        <div id="haza1">
+            <img src="./icons/Screenshot (689).jpg" alt="" id="kmp1">
+            <img src="./icons/Screenshot (680).jpg" alt="" id="kmp2">
+        </div>
+        <div class="blocks" id="haza2">
+            <h4>Prime Video: Recommended for you </h4> <br>
+                <p>Zakir Khan: Mannpasand</p>
+        </div>
+        <div class="blocks">
+            <b class="clip">Categories to explore</b>
+            <img src="./icons/Screenshot (71).png" alt="" class="nimg">
+        </div>
+        <div class="blocks">
+            <b class="clip">Revamp your home in style</b>
+            <img src="./icons/Screenshot (72).png" alt="" class="nimg">
+        </div>
+    </div>
+    </div>
+    <div id="blackbox" class="blb1">
+        <div id="heading"><b>USER&nbsp;&nbsp;&nbsp;&nbsp;</b></div>
+        <div id="content">
+            <h3><b>Trending</b></h3>
+            <p class="tren">Best Seller</p>
+            <p class="tren">New Release</p>
+            <p class="tren">Movies and shakers</p><hr>
+            <h3><b>Digital and Electronic Devices</b></h3>
+            <p class="tren">Echo & Alexa</p>
+            <p class="tren">Fire TV</p>
+            <p class="tren">Kindle E-Readers & eBooks</p>
+            <p class="tren">Audible Audiobooks</p>
+            <p class="tren">Amazon Prime Video</p>
+            <p class="tren">Amazon Prime Music</p><hr>
+            <h3><b>Shop By Catagory</b></h3>
+            <p class="tren">Mobile, Computers</p>
+            <p class="tren">TV, Appliances, Electronics</p>
+            <p class="tren">Men's Fashion</p>
+            <p class="tren">Womens's Fashion</p>
+            <p class="tren">See all</p><hr>
+            <h3><b>Help & Settings</b></h3>
+            <p class="tren">Your Account</p>
+            <p class="tren">Customer Service</p>
+            <p class="tren">Sign Out</p>
+        </div>
+    </div>
+    <div id="cross" class="blb1">X</div>
+    <script>
+        const box = document.getElementById("blackbox");
+        const button1 = document.getElementById("button");
+        const cross = document.getElementById("cross");
+        button1.addEventListener("click",()=>{
+            box.classList.toggle("blb1");
+            cross.classList.toggle("blb1");
+            document.getElementById("obj").style.opacity=0.5;
+        })
+        cross.addEventListener("click",()=>{
+            box.classList.toggle("blb1");
+            cross.classList.toggle("blb1");
+            document.getElementById("obj").style.opacity=1;
+        })
+    </script>
+</body>
+</html>

@@ -1,0 +1,159 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+    background-color: rgb(232, 230, 230);
+}
+
+#box1{
+    display: flex;
+    flex-direction: row;
+    width: 1536px;
+    height: 50px;
+    background-color: #161a1a;
+    margin: -8px;
+}
+#img1{
+    align-self: center;
+    height : 45px;
+}
+#img2{
+    height: 45px;
+    position: absolute;
+    right: 0%;
+    top: 4px;
+}
+#img3{
+    position: absolute;
+    left: 71.3%;
+    top: 6px;
+    height: 37px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.nim{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#text1{
+    position: absolute;
+    top: 6px;
+    left: 20%;
+    height: 35px;
+    width: 800px;
+    border-radius: 5px;
+    border: none;
+    padding-left: 15px;
+}
+#subsection{
+    display: flex;
+    flex-direction: row;
+    margin-top: 8px;
+    margin-left: 0px;
+    width: 1536px;
+    background-color: #232f3e;
+}
+
+.options1{
+    padding: 10px;
+    background-color: #232f3e;
+    color: aliceblue;
+    font-size: medium;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+#cont2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+
+}
+#bcimg{
+    position: absolute;
+    top: 13%;
+    left: 0.6%;
+    height: 650px;
+    width: 1500px;
+    z-index: -1;
+    background-image: url("https://images-eu.ssl-images-amazon.com/images/W/MEDIAX_849526-T1/images/G/31/img24/feb/3/V1/3rd_Fresh_GW_Hero_PC1x_RC._CB583978664_.jpg");
+    background-size: cover;
+    -webkit-mask-image: linear-gradient(#000,rgba(0,0,0,0));
+    mask-image: linear-gradient(#000,rgba(0,0,0,0));
+}
+.nimg{
+    width: 300px;
+    height: 300px;
+}
+
+.blocks{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    /* border-radius: 5px; */
+    font-family: Arial, Helvetica, sans-serif;
+    height: 380px;
+    width: 350px;
+    background-color: white;
+    /* box-shadow: 5px 5px 5px black; */
+    margin: 10px;
+}
+
+#kmp1{
+    margin-top: -1px;
+    margin-bottom: 10px;
+    width: 350px;
+    height: 150px;
+}
+#kmp2{
+    width: 250px;
+    height: 220px;
+}
+
+#haza1{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    /* border-radius: 5px; */
+    font-family: Arial, Helvetica, sans-serif;
+    height: 380px;
+    width: 350px;
+    margin: 10px;
+}
+
+#haza2{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border: none;
+    /* border-radius: 5px; */
+    font-family: Arial, Helvetica, sans-serif;
+    height: 380px;
+    width: 720px;
+    margin: 10px;
+    background-image: url("https://m.media-amazon.com/images/W/MEDIAX_849526-T1/images/S/pv-target-images/0bc2dcd7f510863dd18a4e4c7a1a97106c01341d5564eb4a99f06b19079d0312._AC_SL792_.jpg");
+    background-size: cover;
+    color: white;
+}
+#haza2 h4 ,p{
+    color: white;
+    padding-left: 20px;
+}
+#haza2 p{
+    margin-top: -25px;
+}
+
+.clip{
+    align-self: flex-start;
+    padding-left: 30px;
+    padding-bottom: 5px;
+    font-size: large;
+}
